@@ -1,0 +1,35 @@
+.players-table {
+  cursor: default;
+  width: 100%;
+  background: #fff;
+  text-align: left;
+  color: rgba(0,0,0,.87);
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 50px;
+
+  thead {
+    cursor: default;
+    height: 47px;
+    background: #f9fafb;
+    color: rgba(0, 0, 0, .87);
+    font-weight: 700;
+  }
+
+  th, td {
+    padding: 10px;
+    border: 1px solid rgba(34, 36, 38, .1);
+  } 
+}
+
+@media only screen and (max-width: 600px) {
+  tr {
+    display: flex;
+    flex-diretion: row;
+    flex-wrap: wrap;
+  }
+
+  th, td {
+    flex: 1 1 150px;
+  }
+}

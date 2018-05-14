@@ -1,0 +1,28 @@
+.search-tool {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  .age {
+    position: relative;
+    width: 240px;
+    flex-basis: 20%;
+    margin: 20px 20px 20px 0px;
+
+    .alert {
+      color: #9f3a38;
+      font-size: 12px;
+      left: 0;
+      top: 65px;
+    }
+
+    input {
+      margin: 0;
+      width: 100%;
+    }
+
+    .input-alert {
+      border: 1px solid #9f3a38;
+    }
+  }
+}
