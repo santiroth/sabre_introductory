@@ -1,39 +1,7 @@
 import {
-  footballPlayersSelector,
   footballPlayersPositionsSelector,
   filteredFootballPlayersSelector,
 } from './FootballPlayersFinder.selectors';
-
-describe('footballPlayersSelector', () => {
-  it('should return an empty array if `playersList` is not found in state', () => {
-    const state = {
-      footballPlayers: {},
-    };
-
-    expect(footballPlayersSelector(state)).toEqual(expect.any(Array));
-  });
-
-  it('should return the `playersList` array from state with calculated age', () => {
-    const state = {
-      footballPlayers: {
-        playersList: [
-          {
-            name: 'Lionel Messi',
-            position: 'Forward',
-            dateOfBirth: '1987-06-24',
-          },
-        ],
-      },
-    };
-
-    expect(footballPlayersSelector(state)).toEqual([{
-      name: 'Lionel Messi',
-      position: 'Forward',
-      dateOfBirth: '1987-06-24',
-      age: 31,
-    }]);
-  });
-});
 
 describe('footballPlayersPositionsSelector', () => {
   it('should return an empty array if `playersList` is not found in state', () => {

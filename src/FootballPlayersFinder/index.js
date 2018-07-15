@@ -8,13 +8,11 @@ import {
 import FootballPlayersFinder from './FootballPlayersFinder';
 
 import {
-  footballPlayersSelector,
   footballPlayersPositionsSelector,
   filteredFootballPlayersSelector,
 } from './FootballPlayersFinder.selectors';
 
 const mapStateToProps = state => ({
-  playersList: footballPlayersSelector(state),
   playersPositions: footballPlayersPositionsSelector(state),
   filteredPlayersList: filteredFootballPlayersSelector(state),
 });
