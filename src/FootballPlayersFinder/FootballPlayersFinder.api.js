@@ -1,4 +1,4 @@
-import FOOTBALL_PLAYERS_URL from './constants';
+import FOOTBALL_PLAYERS_URL from './FootballPlayersFinder.constants';
 
 const fetchFootballPlayers = async () => {
   try {

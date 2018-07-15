@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import SearchTool from './components/SearchTool';
-import PlayersTable from './components/PlayersTable';
-import LoadingIndicator from '../common/LoadingIndicator';
+import SearchTool from './SearchTool';
+import PlayersTable from './PlayersTable';
+import LoadingIndicator from '../Common/LoadingIndicator';
 
 class FootballPlayersFinder extends React.Component {
   static defaultProps = {

@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import {
   loadFootballPlayers,
   loadFilteredFootballPlayers,
-} from './actions';
+} from './FootballPlayersFinder.actions';
 
 import FootballPlayersFinder from './FootballPlayersFinder';
 
@@ -11,7 +11,7 @@ import {
   footballPlayersSelector,
   footballPlayersPositionsSelector,
   filteredFootballPlayersSelector,
-} from './selectors';
+} from './FootballPlayersFinder.selectors';
 
 const mapStateToProps = state => ({
   playersList: footballPlayersSelector(state),

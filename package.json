@@ -1,5 +1,6 @@
 {
   "name": "sabre_introductory",
+  "author": "Santiago Rothgaenger",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

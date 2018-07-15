@@ -1,10 +1,10 @@
-import fetchFootballPlayers from './api';
+import fetchFootballPlayers from './FootballPlayersFinder.api';
 import {
   loadFootballPlayers,
   loadFilteredFootballPlayers,
-} from './actions';
+} from './FootballPlayersFinder.actions';
 
-jest.mock('./api');
+jest.mock('./FootballPlayersFinder.api');
 
 describe('loadFootballPlayers thunk', () => {
   it('should return a function', () => {

@@ -1,16 +1,16 @@
 /* eslint-disable no-alert */
 
-import fetchFootballPlayers from './api';
+import fetchFootballPlayers from './FootballPlayersFinder.api';
 
 import {
   FETCH_FOOTBALL_PLAYERS_SUCCESS,
   FILTER_FOOTBALL_PLAYERS,
-} from './actionTypes';
+} from './FootballPlayersFinder.actionTypes';
 
 import {
   showLoadingIndicator,
   hideLoadingIndicator,
-} from '../common/LoadingIndicator/actions';
+} from '../Common/LoadingIndicator/LoadingIndicator.actions';
 
 const loadFootballPlayersSuccess = playersList => ({
   type: FETCH_FOOTBALL_PLAYERS_SUCCESS,

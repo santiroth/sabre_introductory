@@ -2,7 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { mount } from 'enzyme';
 
-import configureStore from '../store/configureStore';
+import configureStore from '../App/configureStore';
 
 import FootballPlayersFinder from './';
 

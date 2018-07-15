@@ -1,4 +1,4 @@
-import getLoadingIndicatorStatus from './selectors';
+import getLoadingIndicatorStatus from './LoadingIndicator.selectors';
 
 describe('getLoadingIndicatorStatus selector', () => {
   it('should return false by default', () => {

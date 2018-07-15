@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Dropdown from '../../../common/Dropdown';
+import Dropdown from '../../Common/Dropdown';
 
 import './SearchTool.css';
 

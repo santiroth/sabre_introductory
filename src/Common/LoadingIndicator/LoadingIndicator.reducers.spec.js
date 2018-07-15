@@ -1,9 +1,9 @@
-import loadingIndicator from './reducers';
+import loadingIndicator from './LoadingIndicator.reducers';
 
 import {
   SHOW_LOADING_INDICATOR,
   HIDE_LOADING_INDICATOR,
-} from './actionTypes';
+} from './LoadingIndicator.actionTypes';
 
 describe('loadingIndicator Reducer', () => {
   it('should return an object as default state', () => {

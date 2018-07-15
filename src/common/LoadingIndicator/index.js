@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 
-import getLoadingIndicatorStatus from './selectors';
+import getLoadingIndicatorStatus from './LoadingIndicator.selectors';
 
 import LoadingIndicator from './LoadingIndicator';
 

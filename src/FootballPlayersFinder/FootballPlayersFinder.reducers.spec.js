@@ -1,8 +1,8 @@
-import footballPlayers from './reducers';
+import footballPlayers from './FootballPlayersFinder.reducers';
 import {
   FETCH_FOOTBALL_PLAYERS_SUCCESS,
   FILTER_FOOTBALL_PLAYERS,
-} from './actionTypes';
+} from './FootballPlayersFinder.actionTypes';
 
 describe('footballPlayers Reducer', () => {
   it('should return an array as default state', () => {

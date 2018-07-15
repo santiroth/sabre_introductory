@@ -1,7 +1,7 @@
 import {
   SHOW_LOADING_INDICATOR,
   HIDE_LOADING_INDICATOR,
-} from './actionTypes';
+} from './LoadingIndicator.actionTypes';
 
 const loadingIndicator = (state = {}, { type, isLoading }) => {
   switch (type) {

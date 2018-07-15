@@ -2,7 +2,7 @@ import {
   footballPlayersSelector,
   footballPlayersPositionsSelector,
   filteredFootballPlayersSelector,
-} from './selectors';
+} from './FootballPlayersFinder.selectors';
 
 describe('footballPlayersSelector', () => {
   it('should return an empty array if `playersList` is not found in state', () => {

@@ -1,5 +1,5 @@
-import fetchFootballPlayers from './api';
-import FOOTBALL_PLAYERS_URL from './constants';
+import fetchFootballPlayers from './FootballPlayersFinder.api';
+import FOOTBALL_PLAYERS_URL from './FootballPlayersFinder.constants';
 
 const mockFetch = () => {
   global.fetch = jest.fn().mockImplementationOnce(() => Promise.resolve({

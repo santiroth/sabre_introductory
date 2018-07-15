@@ -1,12 +1,12 @@
 import {
   SHOW_LOADING_INDICATOR,
   HIDE_LOADING_INDICATOR,
-} from './actionTypes';
+} from './LoadingIndicator.actionTypes';
 
 import {
   showLoadingIndicator,
   hideLoadingIndicator,
-} from './actions';
+} from './LoadingIndicator.actions';
 
 describe('showLoadingIndicator action creator', () => {
   it('should return an object', () => {

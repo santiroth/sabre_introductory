@@ -1,7 +1,7 @@
 import {
   FETCH_FOOTBALL_PLAYERS_SUCCESS,
   FILTER_FOOTBALL_PLAYERS,
-} from './actionTypes';
+} from './FootballPlayersFinder.actionTypes';
 
 const footballPlayers = (state = {}, { type, playersList, filter }) => {
   switch (type) {
